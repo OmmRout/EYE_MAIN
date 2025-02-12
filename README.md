@@ -1,5 +1,5 @@
 # RetiNova
-RetiNova is an AI-driven application designed to provide users with a fast and efficient way to diagnose potential eye conditions using self-taken images. This project was created as part of [IrvineHacks 2025](https://devpost.com/software/retinova) for the **Patient Safety Tech Hack Track**.
+RetiNova is an AI-driven application designed to provide users with a fast and efficient way to diagnose potential eye conditions using self-taken images.
 
 ![RetiNova Cover](frontend/public/cover.png)
 
