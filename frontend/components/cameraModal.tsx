@@ -25,7 +25,6 @@ export default function CameraModal({ open, onClose, onCapture }: CameraModalPro
           throw err;
         }
     };
-
     const capturePhoto = () => {
         if (videoRef.current && canvasRef.current) {
         const context = canvasRef.current.getContext("2d");
@@ -44,7 +43,6 @@ export default function CameraModal({ open, onClose, onCapture }: CameraModalPro
         stopCamera();
         onClose();
     };
-
   const stopCamera = () => {
     const stream = videoRef.current?.srcObject as MediaStream;
     const tracks = stream?.getTracks();
