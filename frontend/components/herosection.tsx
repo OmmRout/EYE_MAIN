@@ -108,8 +108,8 @@ export default function HeroSection() {
             </motion.div>
             {/* Right Content: Image */}
             <Image
-                src="/eye.png"
-                alt="Eye Image"
+                src="/logo.png"
+                alt="Image"
                 width={1200} 
                 height={400}
                 className="hidden md:block md:max-h-[60vh]"

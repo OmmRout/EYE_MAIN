@@ -1,7 +1,7 @@
-# RetiNova
-RetiNova is an AI-driven application designed to provide users with a fast and efficient way to diagnose potential eye conditions using self-taken images.
+# AtmoEye
+AtmoEye is an AI-driven application designed to provide users with a fast and efficient way to diagnose potential eye conditions using self-taken images.
 
-![RetiNova Cover](frontend/public/cover.png)
+![RetiNova Cover](frontend/public/cover.jpg)
 
 ## 🚀 Features
 ### AI-Powered Diagnosis

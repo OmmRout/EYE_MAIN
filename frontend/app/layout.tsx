@@ -25,12 +25,12 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <head>
         <link rel="icon" href="/logo.png" />
-        <title>Retinova</title>
+        <title>AtmoEye</title>
       </head>
       <body className="min-w-screen min-h-screen h-auto">
         <Navbar />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

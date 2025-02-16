@@ -24,7 +24,7 @@ export default function Navbar() {
         >
           <Link href="/">
             <div className="flex">
-              <span className="block mr-1">Reti</span>
+              <span className="block mr-1"></span>
               <Image 
                 src="/logo.png" 
                 alt="Logo"
@@ -34,7 +34,7 @@ export default function Navbar() {
                 >
               </Image>
             </div>
-            <span className="block ml-10">Nova</span>
+            <span className="block ml-10"></span>
           </Link>
         </motion.div>
 
