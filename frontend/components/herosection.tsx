@@ -91,7 +91,7 @@ export default function HeroSection() {
                         variant="text"
                         sx={{
                             color: "#FFFFFF",
-                            display: "flex",
+                            display: "absolute",
                             gap: "10px",
                             alignItems: "center",
                             fontSize: {xs:"16px", md:"18px"},

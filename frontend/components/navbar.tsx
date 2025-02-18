@@ -28,7 +28,7 @@ export default function Navbar() {
               <Image 
                 src="/logo.png" 
                 alt="Logo"
-                width="75"
+                width="90"
                 height="75"
                 className="max-w-12 md:max-w-72 max-h-12 md:max-h-72"
                 >
