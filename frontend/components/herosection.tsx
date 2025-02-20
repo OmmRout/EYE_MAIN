@@ -8,11 +8,11 @@ import { motion } from "motion/react";
 
 
 export default function HeroSection() {
-  return (
+    return (
         <div className="md:flex grid md:flex-cols-2 md:pl-36 py-1 md:py-16 font-sans">
             {/* Left Section: Text and Button Content */}
             <motion.div
-                variants= {{
+                variants={{
                     hidden: { opacity: 0 },
                     show: {
                         opacity: 1,
@@ -41,18 +41,18 @@ export default function HeroSection() {
                     className="flex flex-col w-11/12 md:w-2/3 text-center md:text-left text-balance gap-6 mx-auto md:mx-0"
                 >
                     <h1 className="text-2xl md:text-6xl leading-snug font-medium mx-auto md:mx-0">
+                        AI POWERED
+                        <br />
                         EARLY
                         <br />
-                        DETECTION OF UVEITIS
-                        <br />
                         <div className="flex items-center gap-8">
-                            <span className="mx-auto md:mx-0">AND CATARACTS</span>
+                            <span className="mx-auto md:mx-0">EYE DIAGNOSIS SYSTEM</span>
                             <hr className="hidden md:block w-1/3 border-t-4 border-[#FFFFFF] rounded-full" />
                         </div>
                     </h1>
                     <hr className="block md:hidden w-7/12 border-t-4 border-[#FFFFFF] rounded-full mx-auto" />
                     <p className="text-[#FFFFFF] mt-0 md:mt-6 text-xs md:text-lg leading-relaxed font-light">
-                    Our application leverages advanced AI-driven visual computing to aid in the early diagnosis of uveitis and cataracts—two critical eye conditions that can lead to vision loss if untreated. By analyzing patient-provided eye images, the system detects early signs of inflammation or lens clouding, enabling timely intervention. This software is designed to improve diagnostic accuracy, reduce false positives, and provide patients with accessible, quick, and reliable preliminary assessments. Early detection can significantly enhance treatment outcomes and preserve vision.
+                        Our application leverages advanced AI-driven visual computing to aid in the early diagnosis of uveitis and cataracts—two critical eye conditions that can lead to vision loss if untreated. By analyzing patient-provided eye images, the system detects early signs of inflammation or lens clouding, enabling timely intervention. This software is designed to improve diagnostic accuracy, reduce false positives, and provide patients with accessible, quick, and reliable preliminary assessments. Early detection can significantly enhance treatment outcomes and preserve vision.
                     </p>
                 </motion.div>
                 <motion.div
@@ -70,21 +70,21 @@ export default function HeroSection() {
                     className="mt-4 md:mt-8 w-11/12 md:w-2/3 flex justify-between mx-auto md:mx-0"
                 >
                     <Button
-                    href="/services"
-                    variant="contained"
-                    sx={{
-                        color: "#1E1E1E", 
-                        backgroundColor: "#F9C7FF", 
-                        fontSize: {xs:"14px", md:"16px"},
-                        transition: "transform 0.3s ease",
-                        "&:hover": {
-                            backgroundColor: "#E6B0E6", 
-                            transform: "scale(1.05)"
-                          },
-                    }}
-                    
+                        href="/services"
+                        variant="contained"
+                        sx={{
+                            color: "#1E1E1E",
+                            backgroundColor: "#F9C7FF",
+                            fontSize: { xs: "14px", md: "16px" },
+                            transition: "transform 0.3s ease",
+                            "&:hover": {
+                                backgroundColor: "#E6B0E6",
+                                transform: "scale(1.05)"
+                            },
+                        }}
+
                     >
-                    Services
+                        Services
                     </Button>
                     <Button
                         href="/diagnosis"
@@ -94,15 +94,15 @@ export default function HeroSection() {
                             display: "absolute",
                             gap: "10px",
                             alignItems: "center",
-                            fontSize: {xs:"16px", md:"18px"},
+                            fontSize: { xs: "16px", md: "18px" },
                             transition: "transform 0.3s ease",
                             "&:hover": {
-                                transform: "scale(1.05)", 
+                                transform: "scale(1.05)",
                             },
                         }}
                     >
-                    Get Started
-                    <BsArrowUpRightCircle className="hover:animate-spin text-[#F9C7FF]" style={{fontSize: "26px"}}/>
+                        Get Started
+                        <BsArrowUpRightCircle className="hover:animate-spin text-[#F9C7FF]" style={{ fontSize: "26px" }} />
                     </Button>
                 </motion.div>
             </motion.div>
@@ -110,10 +110,10 @@ export default function HeroSection() {
             <Image
                 src="/logo.png"
                 alt="Image"
-                width={1200} 
+                width={1200}
                 height={400}
                 className="hidden md:block md:max-h-[60vh]"
             />
         </div>
-  );
+    );
 }
