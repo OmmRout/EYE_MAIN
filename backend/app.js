@@ -10,14 +10,6 @@ const addressCache = new Map();
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 app.use(cors());
 
-/**
- * nominatim search function
- *
- * @param address user's current address location
- * @param keywords query with any keywords
- * @returns list of locations that match the given address and keywords
- */
-
 const searchPlacesNominatim = async (address, keywords) => {
     const results = [];
 
@@ -45,15 +37,6 @@ const searchPlacesNominatim = async (address, keywords) => {
         address: "No address available", // placeholder for address
     }));
 };
-
-/**
- * overpass search function
- *
- * @param lat latitude
- * @param lon longitude
- * @param radius optional radius that can be specified. defaults to 25000
- * @returns list of locations that match the given address and keywords
- */
 
 const searchPlacesOverpass = async (lat, lon, radius = 25000) => {
     const query = `[out:json];

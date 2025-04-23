@@ -17,7 +17,7 @@ export default function DiagnosisButton({ onDiagnose }: { onDiagnose: (diagnosis
     const file = event.target.files?.[0];
     if (file) {
       const formData = new FormData();
-      formData.append("file", file);
+      // formData.append("file", file);
   
       try {
         const response = await fetch("http://localhost:8000/predict", {

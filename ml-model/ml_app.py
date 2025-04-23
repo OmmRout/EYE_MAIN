@@ -99,13 +99,3 @@ async def predict(file: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail=f"Error during prediction: {str(e)}")
 
 
-
-# test
-# cataracts
-# curl -X POST -F "file=@/Users/leonardosiu/projects/irvinehacks2025/retinova/frontend/public/cataracts.jpeg" http://localhost:8000/predict
-
-# uveitis
-# curl -X POST -F "file=@/Users/leonardosiu/projects/irvinehacks2025/retinova/frontend/public/uveitis.jpeg" http://localhost:8000/predict
-
-# normal
-# curl -X POST -F "file=@/Users/leonardosiu/projects/irvinehacks2025/retinova/frontend/public/healthy-eye.jpeg" http://localhost:8000/predict
