@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef } from "react";
-import { Modal, Box, Typography, Button } from "@mui/material";
+// import { Modal, Box, Typography, Button } from "@mui/material";
 
 interface CameraModalProps {
     open: boolean;
